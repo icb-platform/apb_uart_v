@@ -1,0 +1,16 @@
+ghdl \
+  /prj/vhdl/src/apb_uart.vhd           \
+  /prj/vhdl/src/slib_clock_div.vhd     \
+  /prj/vhdl/src/slib_counter.vhd       \
+  /prj/vhdl/src/slib_edge_detect.vhd   \
+  /prj/vhdl/src/slib_fifo.vhd          \
+  /prj/vhdl/src/slib_input_filter.vhd  \
+  /prj/vhdl/src/slib_input_sync.vhd    \
+  /prj/vhdl/src/slib_mv_filter.vhd     \
+  /prj/vhdl/src/uart_baudgen.vhd       \
+  /prj/vhdl/src/uart_interrupt.vhd     \
+  /prj/vhdl/src/uart_receiver.vhd      \
+  /prj/vhdl/src/uart_transmitter.vhd   \
+  -e apb_uart
+
+write_verilog /prj/v/apb_uart.v
